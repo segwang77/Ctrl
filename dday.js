@@ -5,7 +5,7 @@ function dayCount() {
     const remainSecond = document.querySelectorAll(".value_sec"); 
 
     const today = new Date();
-    const dday = new Date(2025, 7, 4);
+    const dday = new Date(2027, 7, 4);
     const timeGap = dday.getTime() - today.getTime();
 
     // 남은 일수 카운트
